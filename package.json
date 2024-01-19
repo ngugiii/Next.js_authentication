@@ -9,15 +9,31 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@hookform/resolvers": "^3.3.4",
+    "@prisma/client": "^5.8.0",
+    "axios": "^1.6.5",
+    "bcrypt": "^5.1.1",
+    "check-password-strength": "^2.0.7",
+    "classnames": "^2.5.1",
+    "handlebars": "^4.7.8",
+    "jsonwebtoken": "^9.0.2",
+    "next": "14.0.4",
+    "next-auth": "^4.24.5",
+    "nodemailer": "^6.9.8",
+    "prisma": "^5.8.0",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.0.4"
+    "react-hook-form": "^7.49.3",
+    "react-icons": "^5.0.1",
+    "react-toastify": "^10.0.1",
+    "validator": "^13.11.0",
+    "zod": "^3.22.4"
   },
   "devDependencies": {
     "autoprefixer": "^10.0.1",
-    "postcss": "^8",
-    "tailwindcss": "^3.3.0",
     "eslint": "^8",
-    "eslint-config-next": "14.0.4"
+    "eslint-config-next": "14.0.4",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0"
   }
 }
